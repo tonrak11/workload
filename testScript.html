@@ -1,0 +1,477 @@
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml">
+<head>
+<meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
+<meta http-equiv="X-UA-Compatible" content="IE=8" />
+<title>ระบบการจัดการข้อมูลคณะสถาปัตยกรรมศาสตร์และการผังเมือง</title>
+<style type="text/css">
+<!--
+body {
+	margin-left: 0px;
+	margin-top: 0px;
+	margin-right: 0px;
+	margin-bottom: 0px;
+}
+
+
+-->
+</style>
+<link href="css/common.css" rel="stylesheet" type="text/css" />
+<link href="css/jquery-ui-1.8.16.custom.css" rel="stylesheet" type="text/css" />
+
+<script type="text/javascript" src="scripts/myscript.js"></script>
+<script type="text/javascript" src="scripts/jquery-1.6.2.min.js"></script>
+<script type="text/javascript" src="scripts/jquery-ui-1.8.16.custom.min.js"></script>
+<script type="text/javascript" src="scripts/jquery.ui.datepicker-th.js"></script>
+
+<script type="text/javascript">
+
+Array.prototype.exists = function(o) {
+for(var i = 0; i < this.length; i++)
+   if(this[i] === o)
+     return true;
+return false;
+}
+
+</script>
+
+</head>
+
+<body>
+<div id="mainbody" style="text-align:center; width:100%">
+<div id="top-line1-2" style="width:100%; height:100px; background-color:#999;">
+<div id="mainbody-top" style="width:960px;  height:100px; text-align:left;margin:auto;">
+<div id="top-left" style=" float:left;width:50%; height:100px;background:#FFF url(images/header02.jpg) repeat-x;"><a href="index.php"><img src="images/header01.jpg"  border="0" /></a></div>
+<div id="top-right" style="float:right;width:50%;height:100px; background:#FFF url(images/header02.jpg) repeat-x;">
+<div style="float:right; width:450px; height:100px; margin-left:0px; margin-top:0px;">
+
+<div style="font:12pt  Tahoma normal; height:70px; padding:5px; text-align:right;">
+Welcome!  <u>อาจารย์พิริยะ สัมพันธารักษ์ (1601056)</u>  <a href='logout.php'>[Logout]</a>  <br />
+</div>
+<div style="font:12pt  Tahoma normal; height:100px; padding:0px;text-align:right;">
+  <a href="display.php?op=main">หน้าหลัก </a> |<a href="wl_aptu.pdf" target="_blank">ช่วยเหลือ?</a> &nbsp;</div>
+
+</div>
+</div>
+</div>
+</div>
+
+<div id="mainbody-sec3" style="position:static; width:960px;  background-color:#fff;  text-align:left;margin:auto;font-family:Arial; font-size:12px; vertical-align:top; height:auto;">
+  
+<div id="left-float" >
+
+<div id="l-left" >
+<div style="padding:10px;">
+
+
+
+<blockquote><strong style="font-size: 16px">รายการภาระงานอื่น ๆ ของท่าน
+ </strong><br />
+</blockquote>
+<blockquote>
+  <table width="670" border="0" cellpadding="2" cellspacing="0">
+
+    <tr><td align="left"  valign="top" bgcolor="#E6E6E6" colspan="2"><strong>งานตำรา / ผลงานวิจัย / งานสร้างสรรค์ / อื่น ๆ</strong></td></tr>
+
+    <tr>
+      <td width="600" valign="top" style="border-bottom:1px solid #FFFFFF;">
+      <div class="dhtmlgoodies_header"><img src="images/plus.png"> aaaaa (0.67)</div>
+	  
+	  <div class="dhtmlgoodies_subcontent">
+	<div>
+ 
+	<table width="600" border="0" cellspacing="0" cellpadding="1" style="font-weight:bold;background-color:#eeeeee;border:1px solid #cccccc;">
+			  <tr>
+				<td width="600" valign="top" style="font-weight:bold;background-color:#ffffff;">ประเภทผลงานวิชาการ</td>
+			  </tr>
+			  <tr>
+				<td valign="top" style="font-weight:normal;background-color:#ffffff;padding-left:5px;color:green;">งานสร้างสรรค์/ออกแบบ พร้อมบทวิเคราะห์</td>
+			  </tr>
+			<tr>
+			<td width="600" valign="top" style="font-weight:bold;background-color:#ffffff;">ชื่อโครงการ</td>
+			  </tr>
+			  <tr>
+				<td valign="top" style="font-weight:normal;background-color:#ffffff;padding-left:5px;color:green;">aaaaa</td>
+			  </tr>
+				<tr>
+				<td width="600" valign="top" style="font-weight:bold;background-color:#ffffff;">สัดส่วน</td>
+			  </tr>
+			  <tr>
+				<td valign="top" style="font-weight:normal;background-color:#ffffff;padding-left:5px;color:green;">100%</td>
+			  </tr>
+				<tr>
+				<td width="600" valign="top" style="font-weight:bold;background-color:#ffffff;">จำนวนวิชาเทียบเคียง</td>
+			  </tr>
+			  <tr>
+				<td valign="top" style="font-weight:normal;background-color:#ffffff;padding-left:5px;color:green;">0.67</td>
+			  </tr>
+			  <tr>
+				<td valign="top" style="font-weight:normal;background-color:#ffffff;padding-left:5px;color:green;">
+				<input type="button" name="edit" value="แก้ไข" id="dialog_link2367"> <input type="button" name="edit" value="ลบ" onclick="if(! confirm('ยืนยันการลบ')){ return false; } else { location.href='display3.php?op=jobdel&jid=2367&jtype=17'; }"></td>
+			  </tr>
+			</table>
+
+	</div>
+</div>
+
+	  </td>
+      </tr>
+
+    <tr><td align="left"  valign="top" bgcolor="#FFFFFF" colspan="2">&nbsp;</td></tr>
+
+    <tr><td align="left"  valign="top" bgcolor="#E6E6E6" colspan="2"><strong>งานอื่น ๆ</strong></td></tr>
+
+    <tr><td align="left"  valign="top" bgcolor="#FFFFFF" colspan="2"> - ไม่มีข้อมูลในหมวดนี้</td></tr>
+
+    <tr><td align="left"  valign="top" bgcolor="#FFFFFF" colspan="2">&nbsp;</td></tr>
+
+</table>
+
+
+
+<br>
+</blockquote>
+<br><br><br><br><br><br>
+
+<style type="text/css">
+	body{ font: 62.5% "Tahoma", sans-serif;}
+</style>
+
+<div id="dialog2367" title="แก้ไขข้อมูล">
+			<p>
+				<form id="form2367" name="form2367" method="post" action="display3.php?op=editjob&jid=2367&jtype=17">
+				<table>
+				<tr>
+						<td>
+				ชื่อโครงการ
+				  <input name="subject" type="text" id="subject" value="aaaaa" size="100" style="border:0px; border-bottom:1px dotted #333333; color:#CC0000; ">
+				  <br />
+				  
+				<input type="hidden" name="bookname" id="bookname1"  value=""/>
+				<input type="hidden" name="monthbook" id="monthbook1" value="มกราคม"/>
+				<input type="hidden" name="yearbook" id="yearbook1"  value="2555"/>
+				  
+				  </td>
+					  </tr>
+		     		  <tr>
+						<td>สัดส่วน
+						  <input name="percent" type="text" id="percent" value="100" size="3" style="border:0px; border-bottom:1px dotted #333333; ">
+				%
+					  </tr>
+					  <tr>
+						<td><input type="submit"  name="submit2367" id="submit2367" value="บันทึก" onclick="return submitnow(17,'form2367')"/> </td>
+				
+					  </tr>
+					  </table>
+					  
+					   <input name="subject2" type="text" id="subject2" value="aaaaa" size="100" style="border:0px; border-bottom:1px dotted #333333; color:#CC0000; ">
+					  
+					  </form>
+					  </p>
+			</div>
+
+<script>
+
+initShowHideDivs();
+
+$(function(){
+
+
+				// Dialog			
+				$("#dialog2367").dialog({
+					autoOpen: false,
+					width: 600
+					
+				});
+				
+				// Dialog Link
+				$("#dialog_link2367").click(function(){
+					$("#dialog2367").dialog("open");
+					return false;
+				});
+			
+
+});
+
+</script>
+
+
+
+<script>
+
+function submitnow(jobtypeid,formname){
+
+			//alert(jobtypeid+"###"+formname);
+			var test = document.forms.length;
+
+			alert(test);
+
+			alert(document.forms(formname).length);
+
+			form_obj = document.getElementsByName(formname)[0].length;
+			alert(form_obj);
+
+
+			
+			alert(formname);
+			//form_obj = document.getElementById(formname);
+			//alert(form_obj.subject.value);
+			//return false;
+
+			var v1 = new Array(8,9,10,11,12,13,15,16,17,19,20,21);
+			var v2 = new Array(14,18);
+			var v3 = new Array(22,23,24,25,26,27);
+
+
+
+			if(v1.exists(jobtypeid)){
+
+				   			
+					//alert("test");
+					//formnow = document.getElementById(formname);
+					formnow = formname;
+					//formnow = document.forms[formname];
+					alert("test1");
+					count = formnow.subject.length;
+					alert("test2");
+					alert(formnow);
+
+					errchk = 0;
+					checkSubmit = 0;
+	
+					subjectnow = formnow.subject.value;
+					monthmow = formnow.monthbook.value;
+					yearmow = formnow.yearbook.value;
+			
+					if(subjectnow){
+						checkSubmit++;
+						if(! checkTermRange(monthmow,yearmow)) errchk++;
+					}
+
+					if(! checkSubmit){  
+						alert("ขออภัย คุณกรอกข้อมูลยังไม่ครบ กรุณาตรวจสอบอีกครั้ง");
+						return false;
+					}else if(errchk){  
+						alert("ขออภัย ข้อมูลอยู่นอกช่วงปีงบประมาณ  2555 กรุณาตรวจสอบอีกครั้ง");
+						return false;
+					}else{
+						//alert("OK")
+						//return false;
+					}
+
+			}else if(v3.exists(jobtypeid)){
+
+
+					formnow = document.getElementById(formname);
+
+					errchk = 0;
+					checkSubmit = 0;
+						
+					subjectnow = formnow.subject.value;
+
+					var fromdata = formname.split("form"); 
+					id = fromdata[1];
+					datenow = document.getElementById("start"+id).value;
+			
+					if(subjectnow){
+						checkSubmit++;
+						if(! checkTermRange2(datenow)) errchk++;
+					}
+					
+					if(! checkSubmit){  
+						alert("ขออภัย คุณกรอกข้อมูลยังไม่ครบ กรุณาตรวจสอบอีกครั้ง");
+						return false;
+					}else if(errchk){  
+						alert("ขออภัย ข้อมูลอยู่นอกช่วงปีงบประมาณ  2555 กรุณาตรวจสอบอีกครั้ง");
+						return false;
+					}else{
+						//alert("OK")
+						//return false;
+					}
+
+
+			}else if(v2.exists(jobtypeid)){
+
+				checkSubmit = 0;
+
+				subjectnow = document.getElementById("subject").value;
+				if(! subjectnow){  
+						alert("กรุณาระบุชื่อวิชา");
+						return false;
+				}
+
+				formnow = document.getElementById(formname);
+				count = formnow.cheetname.length;
+
+				for(var i = 0; i < count; i++){			
+					cheetnow = formnow.cheetname[i].value;
+					if(cheetnow){
+							checkSubmit++;
+					}
+				}
+					
+				if(! checkSubmit){  
+						alert("ขออภัย คุณยังไม่ได้กรอกข้อมูลเอกสารประกอบ กรุณาตรวจสอบอีกครั้ง หรือเลือกวิธีการลบข้อมูลทั้งหมดหากต้องการลบ ");
+						return false;
+				}else{
+						//alert("OK")
+						//return false;
+				}
+			
+			}
+
+
+			return true;
+}
+
+
+
+function checkTermRange(mm,yy){
+
+//alert(mm);
+//alert(yy);
+
+var YearSet = yy-543;
+var MonthSet = new Array();
+MonthSet["01"] = 0;
+MonthSet["02"] = 1;
+MonthSet["03"] = 2;
+MonthSet["04"] = 3;
+MonthSet["05"] = 4;
+MonthSet["06"] = 5;
+MonthSet["07"] = 6;
+MonthSet["08"] = 7;
+MonthSet["09"] = 8;
+MonthSet["10"] = 9;
+MonthSet["11"] = 10;
+MonthSet["12"] = 11;
+MonthSet["มกราคม"] = 0;
+MonthSet["กุมภาพันธ์"] = 1;
+MonthSet["มีนาคม"] = 2;
+MonthSet["เมษายน"] = 3;
+MonthSet["พฤษภาคม"] = 4;
+MonthSet["มิถุนายน"] = 5;
+MonthSet["กรกฎาคม"] = 6;
+MonthSet["สิงหาคม"] = 7;
+MonthSet["กันยายน"] = 8;
+MonthSet["ตุลาคม"] = 9;
+MonthSet["พฤศจิกายน"] = 10;
+MonthSet["ธันวาคม"] = 11;
+
+
+var StartYear	= 2011;
+var EndYear		= 2012;
+//var StartYear	= 2010;
+//var EndYear		= 2011;
+var StartTerm	= StartYear+"-9-01 00:00:00";
+var EndTerm		= EndTerm+"-8-30 00:00:00";
+
+var StartTerm = new Date(StartYear, 9, 1);
+var EndTerm = new Date(EndYear, 8, 30);
+var chkdate = new Date(YearSet, MonthSet[mm], 1);
+
+StartTerm =StartTerm.getTime();
+EndTerm = EndTerm.getTime();
+chkdate = chkdate.getTime();
+
+//alert(StartTerm);
+//alert(EndTerm);
+//alert(chkdate);
+
+
+if((chkdate>=StartTerm) && (chkdate<=EndTerm)) return true;
+else return false;
+
+}
+
+
+function checkTermRange2(datenow){
+
+var dd="01";
+var mm="01";
+var yy="2011";
+
+if(datenow){
+	var dateArr = datenow.split("/"); 
+	dd = dateArr[0];
+	mm = dateArr[1];
+	yy = dateArr[2];
+}else{
+	return false;
+}
+
+var YearSet = yy;
+var MonthSet = new Array();
+MonthSet["01"] = 0;
+MonthSet["02"] = 1;
+MonthSet["03"] = 2;
+MonthSet["04"] = 3;
+MonthSet["05"] = 4;
+MonthSet["06"] = 5;
+MonthSet["07"] = 6;
+MonthSet["08"] = 7;
+MonthSet["09"] = 8;
+MonthSet["10"] = 9;
+MonthSet["11"] = 10;
+MonthSet["12"] = 11;
+
+var StartYear	= 2011;
+var EndYear		= 2012;
+
+var StartTerm	= StartYear+"-9-01 00:00:00";
+var EndTerm		= EndTerm+"-8-30 00:00:00";
+
+var StartTerm = new Date(StartYear, 9, 1);
+var EndTerm = new Date(EndYear, 8, 30);
+var chkdate = new Date(YearSet, MonthSet[mm], dd);
+
+StartTerm =StartTerm.getTime();
+EndTerm = EndTerm.getTime();
+chkdate = chkdate.getTime();
+
+if((chkdate>=StartTerm) && (chkdate<=EndTerm)) return true;
+else return false;
+
+}
+
+</script>
+
+
+       
+</div>
+</div>
+            
+<div id="r-right">
+            
+           <div style="width:100%;font-family:Arial; font-size:12px; vertical-align:top;">
+<div style="padding:10px;">
+
+					<div style=" background-color:#FFFFB7; border:1px  #CCCCCC solid; padding:3px;">
+					<strong><u>คำแนะนำ</u><br />
+					</strong>
+					  
+						<p>หากต้องการลบข้อมูล กรุณาติดต่อฝ่ายบุคคล</p>
+					  
+					</div>
+					<br>
+					<div style=" background-color:#FFFFB7; border:1px  #CCCCCC solid; padding:3px;">
+					<strong><u>เมนู</u><br />
+					</strong>
+					  <ul>
+						<li><a href="display.php?op=main">กลับไปหน้าหลัก</a></li>
+						<li><a href="display3.php?op=jobtype">เพิ่มข้อมูลภาระงานอื่น ๆ</a></li>
+						<li><a href="display2.php?op=report1">ตรวจสอบข้อมูลภาระงาน</a></li>
+					  </ul>
+					</div></div>             
+             
+             </div>
+            </div>     
+                          
+        </div>
+
+</div>
+<p><br />
+</p>
+<p>&nbsp; </p>
+</body>
+</html>

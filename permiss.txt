@@ -1,0 +1,15 @@
+1.{"group":"root","adminmenu":1,"adminreport":1,"teachermenu":1,"importST":1} ประภาส บุญสุข
+
+2. {"group":"moderator","adminmenu":0,"adminreport":0,"teachermenu":0,"importST":1} นางณัฐพร  พัฒนะพรหมมาส
+
+3. {"group":"admin","adminmenu":1,"adminreport":1,"teachermenu":1,"importST":1} นางสาวจีรวัฒน์ โกยทา
+
+4. {"group":"moderator","adminmenu":1,"adminreport":1,"teachermenu":1,"importST":1} นางสาวจิตรลดา  จำเนียนโสด
+
+5. {"group":"moderator","adminmenu":1,"adminreport":0,"teachermenu":0,"importST":0} นางสาวเบญจมาศ  พวงสาขา
+ 
+6. {"group":"moderator","adminmenu":0,"adminreport":1,"teachermenu":1,"importST":1} ผู้ช่วยศาสตราจารย์ อาสาฬห์ สุวรรณฤทธิ์
+
+7. {"group":"moderator","adminmenu":0,"adminreport":1,"teachermenu":1,"importST":1} อาจารย์ มณิพร สัมพันธารักษ์
+
+8. {"group":"moderator","adminmenu":0,"adminreport":0,"teachermenu":0,"importST":1}  นางสาวมณทิชา รื่นสุข
